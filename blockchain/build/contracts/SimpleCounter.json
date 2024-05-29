@@ -10,7 +10,7 @@
   "sourceMap": "60:391:14:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "60:391:14:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\nlibrary SimpleCounter {\r\n    struct Counter {\r\n        uint256 value;\r\n    }\r\n\r\n    function current(Counter storage counter) internal view returns (uint256) {\r\n        return counter.value;\r\n    }\r\n\r\n    function increment(Counter storage counter) internal {\r\n        counter.value += 1;\r\n    }\r\n\r\n    function reset(Counter storage counter) internal {\r\n        counter.value = 0;\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\DANILSON\\Desktop\\w\\workspace\\src\\blockchain\\contracts\\SimpleCounter.sol",
+  "sourcePath": "C:\\Users\\DANILSON\\Documents\\GitHub\\Blockchain\\blockchain\\contracts\\SimpleCounter.sol",
   "ast": {
     "absolutePath": "project:/contracts/SimpleCounter.sol",
     "exportedSymbols": {
@@ -503,7 +503,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-05-29T10:05:31.560Z",
+  "updatedAt": "2024-05-29T11:30:55.038Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
